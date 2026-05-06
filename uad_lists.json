@@ -1,0 +1,1662 @@
+{
+  "com.heytap.htms": {
+    "list": "Oem",
+    "description": "Mobile Services (HeyTap). Required for OPPO/OnePlus account login and cloud features. Removing may break OTA updates and account sync. Consider keeping if you use HeyTap services.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.oplus.cosa": {
+    "list": "Oem",
+    "description": "App Enhancement Services – optimizes performance for specific apps and game scenarios (frame rates, battery, touch, network). Also known as Game Engine. If removed, Game Space may not detect games and adaptive refresh rate may not work correctly.",
+    "dependencies": [],
+    "neededBy": [
+      "com.oneplus.gamespace"
+    ],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.aiunit": {
+    "list": "Oem",
+    "description": "AIUnit – system service related to AI features. Breaks Smart Cutout, AI Editor, and some gallery features if removed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.multiapp": {
+    "list": "Oem",
+    "description": "App Cloner – allows cloning apps. Has access to all installed apps and bundles OnePlus analytics.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.coloros.compass2": {
+    "list": "Oem",
+    "description": "ColorOS/OxygenOS default compass app. Shares location with weather servers.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.DeviceAsWebcam": {
+    "list": "Oem",
+    "description": "Using smartphone as webcam. Also dependency for Private Space on Pixel devices. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.melody": {
+    "list": "Oem",
+    "description": "Wireless Earphones – advanced configuration for Bluetooth headsets. Removing may break headset settings options.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.printspooler": {
+    "list": "Aosp",
+    "description": "Print Spooler – manages printing process. Disabling breaks connection preferences submenu in settings and printing functionality.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.google.android.tts": {
+    "list": "Google",
+    "description": "Speech Recognition and Synthesis from Google – default TTS engine. Many navigation and health apps rely on it. Safe to remove if you install an alternative TTS.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.aicall": {
+    "list": "Oem",
+    "description": "Provides AI summaries in ODialer app. Safe to remove if you don't use call summaries.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.redteamobile.roaming": {
+    "list": "Misc",
+    "description": "ORoaming – allows buying roaming data plans via virtual SIM. Safe to remove if you don't use roaming services.",
+    "dependencies": [
+      "com.redteamobile.roaming.deamon"
+    ],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.sceneservice": {
+    "list": "Oem",
+    "description": "Data Services Platform (Breeno). Entire Breeno option disappears from settings after deletion. Safe to remove if you don't use Breeno.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.heytap.cloud": {
+    "list": "Oem",
+    "description": "HeyTap Cloud – cloud storage and sync. Bad privacy policy, can install packages. Safe to remove if you don't use HeyTap cloud.",
+    "dependencies": [
+      "com.heytap.mcs"
+    ],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.omoji": {
+    "list": "Oem",
+    "description": "Omoji – avatar editing app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.riderMode": {
+    "list": "Oem",
+    "description": "Rider Mode – likely related to driving/riding assistant. Safe to remove if not used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.heytap.pictorial": {
+    "list": "Oem",
+    "description": "Lock Screen Magazine – changes wallpaper each time you wake screen. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.cellbroadcastreceiver": {
+    "list": "Aosp",
+    "description": "Cell Broadcast Receiver – handles emergency alerts (AMBER, presidential). Removing may break emergency alerts.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.android.cellbroadcastreceiver.overlay.common": {
+    "list": "Aosp",
+    "description": "Overlay for CellBroadcastReceiver – provides theme/resources. Safe to remove if main package is removed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.cellbroadcastservice": {
+    "list": "Aosp",
+    "description": "Cell Broadcast Service – supports emergency alerts. Removing may break alerts.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.google.android.cellbroadcastservice.overlay": {
+    "list": "Aosp",
+    "description": "Overlay for CellBroadcastService. Safe to remove if main package is removed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.emergency": {
+    "list": "Aosp",
+    "description": "Emergency rescue – shows emergency info on lockscreen and power menu. Removing breaks Safety and Emergency in settings and SOS alerts.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.apps.safetyhub": {
+    "list": "Google",
+    "description": "Personal Safety – helps prepare and react in emergencies. Most features require Google account. Emergency SOS (power button 5 times) still works without it.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.safetycenter.styles.overlay": {
+    "list": "Oem",
+    "description": "Safety Center styles overlay. Removing may affect security & privacy settings UI.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.overlay.gmsconfig.personalsafety": {
+    "list": "Google",
+    "description": "Overlay for Personal Safety – not needed if Safety Hub removed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.android.role.notes.enabled": {
+    "list": "Oem",
+    "description": "Notes Role enabled – overlay that sets default notes app. Breaks disabling/enabling developer options on Pixel devices.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.apps.bard": {
+    "list": "Google",
+    "description": "Google Gemini – AI assistant. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oneplus.filemanager": {
+    "list": "Oem",
+    "description": "OnePlus File Manager – stock file manager. Safe to remove if you use another file manager.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.encryption": {
+    "list": "Oem",
+    "description": "Private Safe – after uninstalling, the file safe option in privacy settings disappears. Also leaves a non-functional section in settings.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.youtube": {
+    "list": "Google",
+    "description": "YouTube – video streaming app. Safe to remove if you don't use it.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oneplus.calculator": {
+    "list": "Oem",
+    "description": "OnePlus Calculator – stock calculator app. Safe to remove if you have an alternative.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.projection.gearhead": {
+    "list": "Google",
+    "description": "Android Auto – allows connecting phone to car display. Safe to remove if not used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.coloros.weather.service": {
+    "list": "Oem",
+    "description": "Weather service – removing may cause screen flashing and unresponsiveness. Disabling instead seems safe. Proceed with caution.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "net.oneplus.weather": {
+    "list": "Oem",
+    "description": "OnePlus Weather – stock weather app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.video": {
+    "list": "Oem",
+    "description": "Video Player – default Oppo/OnePlus video player with many permissions. Safe to remove, but may break opening recorded videos from notification.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.managedprovisioning": {
+    "list": "Aosp",
+    "description": "Work Profile setup – manages Android user accounts for corporate profiles. Needed for sandbox apps like Shelter/Island. Safe to remove if not using work profiles.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.coloros.systemclone": {
+    "list": "Oem",
+    "description": "System Cloner – creates multiple users on device. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.chrome": {
+    "list": "Google",
+    "description": "Google Chrome – browser. Disabling may break passkey creation and WebView functionality. Safe to remove if using another browser and WebView.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.heytap.browser": {
+    "list": "Oem",
+    "description": "HeyTap Browser – full of ads and spam notifications. Strongly recommended to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.eyeprotect": {
+    "list": "Oem",
+    "description": "Eye protection mode – reduces blue light. Safe to remove if you don't use this setting.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.cast": {
+    "list": "Oem",
+    "description": "Screencast – phone casting to other devices. Removing breaks screen mirroring.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.coloros.smartsidebar": {
+    "list": "Oem",
+    "description": "Smart Sidebar – edge panel for quick access. Safe to remove if not used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.phonemanager": {
+    "list": "Oem",
+    "description": "Phone Manager – optimization and security scanning tools. Privacy implications. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.games": {
+    "list": "Oem",
+    "description": "Games – game launcher and optimization (formerly Game Space). Provides recording buffer and performance tweaks. Safe to remove if you don't game.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.carrierdefaultapp": {
+    "list": "Aosp",
+    "description": "Carrier default app – handles out-of-balance mitigation protocols. Safe to remove for most users.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.mediatek.omacp": {
+    "list": "Misc",
+    "description": "OMA Client Provisioning – handles configuration SMS for APN settings. May be abused for phishing. Safe to remove if you can set APN manually.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.backupconfirm": {
+    "list": "Aosp",
+    "description": "Backup confirmation – displays popup for ADB backup. Disabling breaks ADB backup.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.oplus.deepthinker": {
+    "list": "Oem",
+    "description": "Smart Capability Services – may cause bootloop on ColorOS 12+. Removing breaks battery usage curve display. Proceed with caution.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.android.bookmarkprovider": {
+    "list": "Aosp",
+    "description": "Bookmark provider – exists for compatibility. Disabling may crash browser on some emulators.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.ambient.streaming": {
+    "list": "Oem",
+    "description": "Access phone apps from Chromebook. Safe to remove if not using Chromebook.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.contentportal": {
+    "list": "Oem",
+    "description": "Content Portal – likely related to content sharing. No detailed info, safe to remove if not used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.dfs": {
+    "list": "Oem",
+    "description": "DFS – unknown, but related to system services. May be safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.ndsf": {
+    "list": "Oem",
+    "description": "DSF – device connection security service for HeyTap account authentication. Safe to remove if you don't use HeyTap account.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.securityguard": {
+    "list": "Oem",
+    "description": "Security Events – located in Phone Manager -> Security Tools. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.setupwizard": {
+    "list": "Google",
+    "description": "Android Setup Wizard – guides initial device setup. Removing may break mobile identity management and Google account sync.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [
+      "mim"
+    ],
+    "removal": "Advanced"
+  },
+  "com.oplus.atlas": {
+    "list": "Oem",
+    "description": "AtlasService – separate app sound and individual app volumes. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.android.avatarpicker": {
+    "list": "Aosp",
+    "description": "Avatar picker – assign pictures to contacts. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.wallpaperbackup": {
+    "list": "Aosp",
+    "description": "Wallpaper backup – backs up and restores wallpaper. Safe to remove if you don't need wallpaper backup.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oneplus.colorx": {
+    "list": "Oem",
+    "description": "ColorX – possibly related to display color calibration. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.nfcengineertest": {
+    "list": "Oem",
+    "description": "NFC engineer test – hidden testing app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.securepay": {
+    "list": "Oem",
+    "description": "Secure Payment – payment system with potential security risks. Some users can't uninstall. Safe to remove if not using.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.apprecover": {
+    "list": "Oem",
+    "description": "Recover system apps – allows restoring preinstalled apps. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.cota.notification": {
+    "list": "Oem",
+    "description": "COTA notification – configuration over-the-air notifications. May be safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.cellbroadcastreceiver.overlay": {
+    "list": "Aosp",
+    "description": "Overlay for CellBroadcastReceiver. Safe to remove if main package removed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.ambient.livealert": {
+    "list": "Oem",
+    "description": "Live Alert – dynamic island like notifications. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.beaconlink": {
+    "list": "Oem",
+    "description": "Beacon Link – possibly for Bluetooth beacons. Safe to remove if not used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.remotecontrol": {
+    "list": "Oem",
+    "description": "Remote Control – may be for IR or device control. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.bips": {
+    "list": "Aosp",
+    "description": "Default Print Service. Disabling can cause Settings app crash and general slowness on some devices. Safe to remove only if you have another print service.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.android.providers.downloads.ui": {
+    "list": "Aosp",
+    "description": "Downloads UI – user interface for downloads. May have ads/trackers on some OEMs. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.heytap.mydevices": {
+    "list": "Oem",
+    "description": "My devices – shows connected accessories (headphones, etc.). Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.oneplus.oshare": {
+    "list": "Oem",
+    "description": "OnePlus Share – file sharing between Oppo/OnePlus devices. Removing breaks share from Photos and screenshot share. Use with caution.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.smartengine": {
+    "list": "Oem",
+    "description": "Smart Engine – testing app, may support speed cards. Some cards may not load after removal. Safe to remove if not using.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.oplus.upgradeguide": {
+    "list": "Oem",
+    "description": "Upgrade guide – first-run after OTA. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.tai.borderpresearch": {
+    "list": "Oem",
+    "description": "Border pre-search – unknown. Likely safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.as": {
+    "list": "Google",
+    "description": "Android System Intelligence – enables Live Caption, Screen Attention, smart replies, etc. Safe to remove if you don't use these features.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.as.oss": {
+    "list": "Google",
+    "description": "Private Compute Services – on-device behavior analysis for Live Caption, music recognition. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.partnersetup": {
+    "list": "Google",
+    "description": "Partner Setup – enables apps to interact with Google account. Safe to remove, no noticeable consequences.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.securitykeyboard": {
+    "list": "Oem",
+    "description": "Secure Keyboard – appears when typing passwords. Safe to remove if you trust your keyboard.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.lfeh": {
+    "list": "Oem",
+    "description": "LFEH – part of logging suite. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.accessibility.switchaccess": {
+    "list": "Google",
+    "description": "Switch Access – accessibility feature for motor impairments. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oneplus.membership": {
+    "list": "Oem",
+    "description": "Red Cable Club – loyalty app. Battery drain if account added. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.aimemory": {
+    "list": "Oem",
+    "description": "Mind Space (Breeno Memory) – saves and summarizes content using AI. Runs in background. Safe to remove if not using.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.customize.coreapp": {
+    "list": "Oem",
+    "description": "Customize core app – useless framework. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.gms.supervision": {
+    "list": "Google",
+    "description": "Family Link parental controls. Safe to remove if not used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.translate.engine": {
+    "list": "Oem",
+    "description": "Translate engine – used for translation features. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.bluetoothmidiservice": {
+    "list": "Aosp",
+    "description": "MIDI over Bluetooth – safe to remove if you don't connect MIDI devices.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.calllogbackup": {
+    "list": "Aosp",
+    "description": "Call log backup – runs in background. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.egg": {
+    "list": "Aosp",
+    "description": "Android easter egg. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.email.partnerprovider": {
+    "list": "Aosp",
+    "description": "Email partner provider – customizes default email settings (e.g., 'Sent from my...'). Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.hotwordenrollment.okgoogle": {
+    "list": "Aosp",
+    "description": "\"OK Google\" detection. Safe to remove if not using voice wake-up.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.hotwordenrollment.xgoogle": {
+    "list": "Aosp",
+    "description": "OK Google detection (another component). Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.providers.partnerbookmarks": {
+    "list": "Aosp",
+    "description": "Partner bookmarks – provides bookmarks from partners in Chrome. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.stk": {
+    "list": "Aosp",
+    "description": "SIM Toolkit – enables carrier value-added services. May be abused. Removing breaks mobile identity management used by some apps (e.g., banking).",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [
+      "mim"
+    ],
+    "removal": "Advanced"
+  },
+  "com.android.traceur": {
+    "list": "Aosp",
+    "description": "System Tracing – records device activity for developers. Safe to remove if not a developer.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.childrenspace": {
+    "list": "Oem",
+    "description": "Kid space – limits app usage for children. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.ocrscanner": {
+    "list": "Oem",
+    "description": "OCR scanner – extracts text from images. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.facebook.appmanager": {
+    "list": "Misc",
+    "description": "Facebook app manager – handles Facebook apps updates. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.facebook.services": {
+    "list": "Misc",
+    "description": "Facebook Services – manages Facebook services. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.facebook.system": {
+    "list": "Misc",
+    "description": "Facebook App Installer – empty shell to encourage Facebook install. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.apps.setupwizard.searchselector": {
+    "list": "Google",
+    "description": "Search engine selector in setup wizard. Safe to remove after setup.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.apps.tachyon": {
+    "list": "Google",
+    "description": "Google Duo (video calls). Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.apps.wellbeing": {
+    "list": "Google",
+    "description": "Digital Wellbeing – tracks app usage. Removing leaves empty entry in Settings on some devices. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.feedback": {
+    "list": "Google",
+    "description": "Crash feedback sender. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.gms.location.history": {
+    "list": "Google",
+    "description": "Google Location History – empty app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.googlequicksearchbox": {
+    "list": "Google",
+    "description": "Google Search box – powers Google Discover and voice search. Removing breaks Ok Google and Circle to Search. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.marvin.talkback": {
+    "list": "Google",
+    "description": "Android Accessibility Suite – for blind/low-vision users. Removing may cause issues with some accessibility features. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.onetimeinitializer": {
+    "list": "Google",
+    "description": "First-time setup helper. Safe to remove after setup.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.printservice.recommendation": {
+    "list": "Aosp",
+    "description": "Recommends print services. Printing still works without it.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.ar.core": {
+    "list": "Google",
+    "description": "Google Play Services for AR. Safe to remove if you don't use AR apps.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.ar.lens": {
+    "list": "Google",
+    "description": "Google Lens – AR visual search. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.heytap.mcs": {
+    "list": "Oem",
+    "description": "System messages with trackers. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.microsoft.appmanager": {
+    "list": "Misc",
+    "description": "Link to Windows – sync phone with PC. Safe to remove if not used.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oneplus.account": {
+    "list": "Oem",
+    "description": "OnePlus Account – authentication for OnePlus apps. Safe to remove if you don't use them.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.crashbox": {
+    "list": "Oem",
+    "description": "Sends system failure data to developers. Runs at boot. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.logkit": {
+    "list": "Oem",
+    "description": "Logs service and bug reporting. Safe to remove if you don't report bugs.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.statistics.rom": {
+    "list": "Oem",
+    "description": "User Experience Program – intrusive telemetry. Runs at boot. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.wifibackuprestore": {
+    "list": "Oem",
+    "description": "Backup Wi-Fi credentials to cloud. May break local backup of Wi-Fi access points. Safe to remove if you don't need backup.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oppo.quicksearchbox": {
+    "list": "Oem",
+    "description": "Quick search box – often Chinese. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.atfwd": {
+    "list": "Misc",
+    "description": "AT command handler – can be abused. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.wapi.wapicertmanage": {
+    "list": "Oem",
+    "description": "WAPI certificate manager – Chinese WLAN standard. Safe to remove outside China.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.ondevicepersonalization.services": {
+    "list": "Aosp",
+    "description": "OnDevicePersonalization – part of AdServices privacy sandbox. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.camerabigballconfig.overlay": {
+    "list": "Oem",
+    "description": "Configures QR code scanner component. Not needed for camera. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.cameraextensions": {
+    "list": "Oem",
+    "description": "Camera extensions proxy – supports portrait, night mode. May not work significantly on MIUI. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.microdroid.empty_payload": {
+    "list": "Aosp",
+    "description": "Empty MicroDroid payload. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.systemui.accessibility.accessibilitymenu": {
+    "list": "Aosp",
+    "description": "Accessibility menu – hidden with two buttons. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.systemui.overlay.common": {
+    "list": "Oem",
+    "description": "SystemUI overlay – safe to remove (no code).",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.systemui.overlay.fingerprint.anim.ccyh": {
+    "list": "Oem",
+    "description": "Fingerprint animation – PNG files. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.systemui.overlay.fingerprint.anim.jslz": {
+    "list": "Oem",
+    "description": "Fingerprint animation – PNG files. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.systemui.overlay.fingerprint.anim.xklc": {
+    "list": "Oem",
+    "description": "Fingerprint animation – PNG files. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.theme.font.notoserifsource": {
+    "list": "Aosp",
+    "description": "Noto Serif font – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.virtualmachine.res": {
+    "list": "Aosp",
+    "description": "Virtual machine resources – introduced in Android 14. Safe to remove, but may have security implications.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.coloros.accessibilityassistant": {
+    "list": "Oem",
+    "description": "AI VoiceScribe – speech to text for accessibility. Safe to remove if not using AI services.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.colordirectservice": {
+    "list": "Oem",
+    "description": "Screen Recognition (Breeno Touch) – requires other packages. Safe to remove.",
+    "dependencies": [
+      "com.coloros.ocrscanner",
+      "com.coloros.ocrservice",
+      "com.oplus.ocs",
+      "com.oplus.aiunit",
+      "com.coloros.ocs.opencapabilityservice"
+    ],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.floatassistant": {
+    "list": "Oem",
+    "description": "Assistive ball feature. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.operationManual": {
+    "list": "Oem",
+    "description": "Help & feedback – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.coloros.scenemode": {
+    "list": "Oem",
+    "description": "Scene mode and simple mode. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.adservices.api": {
+    "list": "Aosp",
+    "description": "Android AdServices – privacy sandbox component. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.apps.work.clouddpc": {
+    "list": "Google",
+    "description": "Device Policy – work apps handling. Safe to remove if not using work profile.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.federatedcompute": {
+    "list": "Aosp",
+    "description": "FederatedCompute – learns about users for personalization. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.odad": {
+    "list": "Google",
+    "description": "Google Play Protect Service – useless frameworks. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.overlay.gmsconfig.asi": {
+    "list": "Google",
+    "description": "Overlay for Android System Intelligence. Safe to remove if AS removed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.overlay.modules.captiveportallogin.forframework": {
+    "list": "Aosp",
+    "description": "Captive portal login config – not needed. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.overlay.modules.permissioncontroller": {
+    "list": "Aosp",
+    "description": "Permission controller overlay – safe to remove, may affect pop-up UI.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.mainline.adservices": {
+    "list": "Aosp",
+    "description": "AdServices mainline – privacy sandbox. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.microsoft.deviceintegrationservice": {
+    "list": "Oem",
+    "description": "Device Integration Service – possibly for Microsoft Link to Windows. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.microsoftsdk.crossdeviceservicebroker": {
+    "list": "Oem",
+    "description": "Cross Device Broker – for Microsoft Link to Windows. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.android.overlay.gmsconfig.common": {
+    "list": "Oem",
+    "description": "Overlay to gmsconfig – not needed. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.audio.effectcenter": {
+    "list": "Oem",
+    "description": "Sound effects and EQ settings. Safe to remove if not using EQ.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.bttestmode": {
+    "list": "Oem",
+    "description": "Bluetooth test mode – hidden test app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.dmp": {
+    "list": "Oem",
+    "description": "Deactivate Traffic Management – fusion search service. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.eid": {
+    "list": "Oem",
+    "description": "Eid-Service – Chinese online identity. Safe to remove outside China.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.engineercamera": {
+    "list": "Oem",
+    "description": "EngineerCamera – testing camera. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.engineermode": {
+    "list": "Oem",
+    "description": "EngineerMode – testing hardware. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.engineernetwork": {
+    "list": "Oem",
+    "description": "EngineerNetwork – testing network. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.healthservice": {
+    "list": "Oem",
+    "description": "Health service – needed for fitness trackers. Safe to remove if not using.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.linker": {
+    "list": "Oem",
+    "description": "OPSynergy – for PC connection and screencast. Removing breaks screencast. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.location": {
+    "list": "Oem",
+    "description": "Chinese location – has China MCC. Useless outside China. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.locationproxy": {
+    "list": "Oem",
+    "description": "Carrier Location Services – extra telemetry. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.metis": {
+    "list": "Oem",
+    "description": "Metis – user behavior records. Collects data. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.obrain": {
+    "list": "Oem",
+    "description": "OBrain – log component. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.onetrace": {
+    "list": "Oem",
+    "description": "OneTrace – logging component. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.postmanservice": {
+    "list": "Oem",
+    "description": "Diagnostics – hardware calibration. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.powermonitor": {
+    "list": "Oem",
+    "description": "Power monitor – logging component. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.qualityprotect": {
+    "list": "Oem",
+    "description": "QualityProtect – logs system usage. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.sauhelper": {
+    "list": "Oem",
+    "description": "SAUHelper – placeholder app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qti.qcc": {
+    "list": "Misc",
+    "description": "QCC – logs and analytics (spyware). Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.location": {
+    "list": "Misc",
+    "description": "Qualcomm Location Services – sends location data to Qualcomm. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.qti.devicestatisticsservice": {
+    "list": "Misc",
+    "description": "Device statistics service – usage analytics. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.qti.powersavemode": {
+    "list": "Misc",
+    "description": "Hidden power saving modes – not accessible. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.qti.qms.service.trustzoneaccess": {
+    "list": "Misc",
+    "description": "QMS spyware – logs. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.qti.uimGbaApp": {
+    "list": "Misc",
+    "description": "UIM GBA – related to SIM/R-UIM. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.qti.xrcb": {
+    "list": "Misc",
+    "description": "XRCB – emergency alerts. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.qti.xrvd.service": {
+    "list": "Misc",
+    "description": "XRVDTest – accessibility testing. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.uimremoteclient": {
+    "list": "Misc",
+    "description": "UIM remote client – related to R-UIM. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qualcomm.uimremoteserver": {
+    "list": "Misc",
+    "description": "UIM remote server – related to R-UIM. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.apps.tag": {
+    "list": "Aosp",
+    "description": "NFC tag interactions – safe to remove if not using NFC tags.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.cts.ctsshim": {
+    "list": "Aosp",
+    "description": "Compatibility Test Suite – used by manufacturers. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.devicediagnostics": {
+    "list": "Aosp",
+    "description": "Device diagnostics – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.dreams.basic": {
+    "list": "Aosp",
+    "description": "Daydream screensaver – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.android.wallpaper.livepicker": {
+    "list": "Aosp",
+    "description": "Live wallpaper picker – removing may break some weather apps and Muzei. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.coloros.activation": {
+    "list": "Oem",
+    "description": "E-warranty card – sends IMEI to servers. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.health.connect.backuprestore": {
+    "list": "Aosp",
+    "description": "Health Connect backup/restore. Safe to remove if not using Health Connect.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.healthconnect.controller": {
+    "list": "Aosp",
+    "description": "Health Connect – manages health/fitness data. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.overlay.gmsconfig.gsa": {
+    "list": "Google",
+    "description": "Overlay for Google Search – safe to remove if Google app removed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.mainline.telemetry": {
+    "list": "Google",
+    "description": "Mainline telemetry – contains version data. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.heytap.accessory": {
+    "list": "Misc",
+    "description": "Accessory Framework – quick device connect. Safe to remove.",
+    "dependencies": [
+      "com.heytap.mcs"
+    ],
+    "neededBy": [
+      "com.oplus.synergy"
+    ],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.vdc": {
+    "list": "Oem",
+    "description": "Virtual device conversion – converts nearby devices into virtual resources. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.virtualcomm": {
+    "list": "Oem",
+    "description": "Virtual communications – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.qualcomm.wfd.service": {
+    "list": "Misc",
+    "description": "Miracast/WiFi Direct casting. Safe to remove if not using screen cast.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "vendor.qti.data.txpwradmin": {
+    "list": "Misc",
+    "description": "Qualcomm data tx power admin – hidden network stats. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.aiunit.aon": {
+    "list": "Oem",
+    "description": "AONService – ColorOS smart features (spying prevention, smart rotation, etc.). Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.android.simappdialog": {
+    "list": "Aosp",
+    "description": "SIM app dialog – pops up when SIM inserted to install carrier app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.oplus.cota": {
+    "list": "Oem",
+    "description": "Configuration update over the air – needed for OTA updates. Safe to remove only if you don't want OTA.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Expert"
+  },
+  "com.google.android.aicore": {
+    "list": "Oem",
+    "description": "AI Core – for Google Gemini. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.aiwriter": {
+    "list": "Oem",
+    "description": "AI Writer – pop-up for AI text generation. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.android.overlay.aifunction.cicletosearch": {
+    "list": "Oem",
+    "description": "Overlay for Circle to Search – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.android.overlay.aifunction.common": {
+    "list": "Oem",
+    "description": "Common AI function overlay – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.oplus.virtualcomm2": {
+    "list": "Oem",
+    "description": "Virtual communications 2 – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "android.autoinstalls.config.oneplus": {
+    "list": "Oem",
+    "description": "Auto-installs OEM apps on setup. Safe to remove after setup.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.google.android.apps.restore": {
+    "list": "Google",
+    "description": "Backup restore wizard – runs on boot. Only needed for factory restore. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.android.ncm.overlay.common": {
+    "list": "Oem",
+    "description": "NCM overlay – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.gms.android.ncm.overlay.common": {
+    "list": "Oem",
+    "description": "GMS NCM overlay – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.coloros.assistantscreen": {
+    "list": "Oem",
+    "description": "Shelf (At a Glance) – provides widgets. Removing breaks third-party widgets on ColorOS 16/OxygenOS 16. Safe to remove if not needed.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Advanced"
+  },
+  "com.google.android.overlay.modules.healthfitness.forframework": {
+    "list": "Aosp",
+    "description": "Health fitness overlay – safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.qti.dcf": {
+    "list": "Misc",
+    "description": "DCF – empty app. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  },
+  "com.oplus.stdsp": {
+    "list": "Oem",
+    "description": "Device Security Service – detects Xposed and security risks. Safe to remove.",
+    "dependencies": [],
+    "neededBy": [],
+    "labels": [],
+    "removal": "Recommended"
+  }
+}
